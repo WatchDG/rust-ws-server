@@ -1,0 +1,19 @@
+[package]
+name = "ws-server"
+version = "0.0.1"
+authors = ["WatchDG <baranov@w3m.co>"]
+license = "MIT OR Apache-2.0"
+description = "websocket server"
+homepage = "https://github.com/WatchDG/rust-ws-server"
+documentation = "https://docs.rs/ws-server"
+repository = "https://github.com/WatchDG/rust-ws-server"
+readme = "README.md"
+edition = "2018"
+exclude = [
+    ".github/**/*",
+    "src/main.rs",
+    ".gitignore"
+]
+
+[dependencies]
+ws-protocol = "0.3"
